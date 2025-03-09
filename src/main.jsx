@@ -7,7 +7,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <TonConnectUIProvider manifestUrl="https://koala.cryptoweb3.tools/tonconnect-manifest.json">
+    <TonConnectUIProvider manifestUrl="https://telegram-mini-app-five-beta.vercel.app/tonconnect-manifest.json">
       <App />
     </TonConnectUIProvider>
   </BrowserRouter>
